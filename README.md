@@ -35,24 +35,24 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 - Search for app configuration by the help of search text box.
 
-![](RackMultipart20211106-4-s4b1mx_html_b19ce44416062467.png)
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/fcc2ed69fa72c4e8844f0c4956d515311abbb1fd/Images/2.jpg)
 
 - Click on create button.
 
-![](RackMultipart20211106-4-s4b1mx_html_14085c15f9244ed5.png)
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/3.jpg)
 
 - Select and Fill the required fields and hit the &quot;Review + Create&quot; button.
 
-![](RackMultipart20211106-4-s4b1mx_html_79543eb29d8a951e.png)
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/3.jpg)
 
 - Verify details one more time and click on &quot;Create&quot; button.
 
-![](RackMultipart20211106-4-s4b1mx_html_9d115e2266b921c5.png)
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/5.jpg)
 
 - Here we created app configuration resource successfully.
 - Now go click on &quot;Access Keys&quot; uunder **settings** blade from left panel.
 
-![](RackMultipart20211106-4-s4b1mx_html_c49cb82fcc3d313c.png)
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/6.jpg)
 
 - As
 
