@@ -14,7 +14,7 @@ We need some experience on Azure and C# language.
 
 - As we know azure configuration provides a service to centrally manage application settings.
 - If we have more than one application and they uses same configuration settings, then no need to manage configuration settings individually to each application.
-- We simple create app configuration in azure and manage from there to all applications.
+- We simply create app configuration in azure and manage from there to all applications.
 
 ## Let&#39;s Start With Hands On Example:
 
@@ -23,7 +23,7 @@ We need some experience on Azure and C# language.
 Before proceeding to start, let&#39;s check out the  **pre-requirements**  for this, given below:
 
 - .Net Core (MVC etc)
-- C# \&gt; 7.0
+- C# &gt; 7.0
 - An Azure Account
 - Code Editor (VS or VS Code)
 
@@ -98,7 +98,7 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/17.png)
 
-- Here &quot;AppConfigurationModel&quot; is a model class sown as below.
+- Here &quot;AppConfigurationModel&quot; is a model class shown as below.
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/15.png)
 
@@ -114,7 +114,7 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 **It's Demo Time Now....**
 
-- Lets run over application and first add Key as &quot;UpdatedVersion&quot; and value is &quot;1&quot;
+- Lets run our application and first add Key as &quot;UpdatedVersion&quot; and value is &quot;1&quot;
 
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/19.png)

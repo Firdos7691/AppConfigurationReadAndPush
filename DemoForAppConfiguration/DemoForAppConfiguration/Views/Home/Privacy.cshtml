@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Read Values From Azuer App Configuration";
+}
+<h1>@ViewData["Title"]</h1>
+@model DemoForAppConfiguration.Models.AppConfigurationModel
+
+
+<div class="text-center">
+
+
+    @using (Html.BeginForm("Read", "Home", FormMethod.Post))
+    {
+        
+        @Html.Label("Enter Key")<br />
+        @Html.TextBoxFor(model => model.Key)<br />
+        @Html.ValidationMessageFor(model => model.Key)<br />
+
+        <button type="submit">Read</button>
+    }
+</div>
+<br />
+<br />
+
+<div class="text-center">@ViewBag.ReadMessage</div>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DemoForAppConfiguration.Models.AppConfigurationModel
+
+<div class="text-center">
+
+
+    @using (Html.BeginForm("Push", "Home", FormMethod.Post))
+    {
+        @Html.Label("Enter Key")<br />
+        @Html.TextBoxFor(model => model.Key)<br />
+        @Html.ValidationMessageFor(model => model.Key)<br />
+
+        @Html.Label("Enter Value")<br />
+        @Html.TextBoxFor(model => model.Value)<br />
+        @Html.ValidationMessageFor(model => model.Value)<br />
+
+        <button type="submit">Push</button>
+    }
+</div><br /><br />
+
+<div class="text-center">@ViewBag.Message</div>
+
+

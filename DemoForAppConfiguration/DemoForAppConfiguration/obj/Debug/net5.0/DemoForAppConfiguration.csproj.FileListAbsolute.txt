@@ -1,0 +1,7 @@
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.AssemblyInfoInputs.cache
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.AssemblyInfo.cs
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.csproj.CoreCompileInputs.cache
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.RazorAssemblyInfo.cache
+C:\Users\FirdosKhan\source\repos\DemoForAppConfiguration\DemoForAppConfiguration\obj\Debug\net5.0\DemoForAppConfiguration.RazorAssemblyInfo.cs

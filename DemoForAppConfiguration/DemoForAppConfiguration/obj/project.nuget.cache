@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "hwSXj6ZZfaPZR5YYWAL0dK/fh98WLSgnyGnDfHLXLtyRvPBLybFcXpyLOWOCrb/BoYn+u5OfbjkapAg5xUsg8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FirdosKhan\\source\\repos\\DemoForAppConfiguration\\DemoForAppConfiguration\\DemoForAppConfiguration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\azure.core\\1.0.1\\azure.core.1.0.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\azure.data.appconfiguration\\1.0.0\\azure.data.appconfiguration.1.0.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\azure.security.keyvault.secrets\\4.0.1\\azure.security.keyvault.secrets.4.0.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.azure.appconfiguration.aspnetcore\\4.5.0\\microsoft.azure.appconfiguration.aspnetcore.4.5.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.extensions.configuration.azureappconfiguration\\4.5.0\\microsoft.extensions.configuration.azureappconfiguration.4.5.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\FirdosKhan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
