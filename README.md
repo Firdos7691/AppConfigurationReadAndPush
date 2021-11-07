@@ -65,10 +65,69 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 - As shown above picture there is no key-values are available.
 
-**Step2:** Lets create MVC core application for read and push values to app configuration.
+**Step2:** Lets create MVC core application for read and push values to azure app configuration.
 - Let's switch to visual studio and create mvc application.
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/9.png)
 
 - Add below nuget pakcages to project.<br/>
     **Microsoft.Azure.AppConfiguration.AspNetCore**
+
+- Add connection string in appsetting.json file. <br/>
+**Note:** ***We discussed connection string in step 1***
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/10.png)
+
+- Open &quot;program.cs&quot; file and add below code in CreateHostBuilder method.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/11.png)
+
+- In above code we have done with dynamic referesh of app configuration by the help of &quot;UpdatedVersion&quot; 
+- Once we add or update any value(s) then we have to update value of &quot;UpdatedVersion&quot; key to get updated values from app configuration.
+- By default referesh time cycle is 30 seconds but for debugging purpose we kept 10 seconds.
+- now open  &quot;Startup.cs&quot; file and add below piece of code in &quot;ConfigureServices&quot; and &quot;Configure&quot; method.
+
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/12.png)
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/13.png)
+
+- Let's switch to controller, open &quot;HomeController&quot; and add below action methods.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/14.png)
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/17.png)
+
+- Here &quot;AppConfigurationModel&quot; is a model class sown as below.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/15.png)
+
+- Open &quot;Index.cshtml&quot; file and add below code to it.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/16.png)
+
+- Open &quot;Privacy.cshtml&quot; file and add below code to it.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/18.png)
+
+**Note:** ***Here we are not following coding standard. as we are using this application for a demo purpose***
+
+**It's Demo Time Now....**
+
+- Lets run over application and first add Key as &quot;UpdatedVersion&quot; and value is &quot;1&quot;
+
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/19.png)
+
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/20.png)
+
+- Now let's go to azure portal and check key and value added or not to app configuration.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/21.png)
+
+- Finally we done with push functioality now let's check read functionality.
+- Go to Read values tab in our application and enter key name in text box and hit the read button.
+
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/22.png)
