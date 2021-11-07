@@ -70,5 +70,5 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/9.png)
 
-- Add below nuget pakcages to project.
+- Add below nuget pakcages to project.<br/>
     **Microsoft.Azure.AppConfiguration.AspNetCore**
