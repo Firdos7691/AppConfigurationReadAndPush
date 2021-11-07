@@ -66,3 +66,9 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 - As shown above picture there is no key-values are available.
 
 **Step2:** Lets create MVC core application for read and push values to app configuration.
+- Let's switch to visual studio and create mvc application.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/9.png)
+
+- Add below nuget pakcages to project.
+    **Microsoft.Azure.AppConfiguration.AspNetCore**
