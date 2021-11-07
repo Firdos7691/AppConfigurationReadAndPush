@@ -50,10 +50,19 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/5.jpg)
 
 - Here we created app configuration resource successfully.
-- Now go click on &quot;Access Keys&quot; uunder **settings** blade from left panel.
+- Now click on &quot;Access Keys&quot; under **settings** blade from left panel.
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/6.jpg)
 
-- As
+- As we are going to read and push values to app configuration, so we need to select &quot;Read-Write Keys&quot; tab and for getting connection string for both action.
 
-s
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/7.png)
+
+- Now we check is there any key value is available or not in this. let's go and check.
+- Click on &quot;Configuration exporer&quot; under **Operations** blade from left panel.
+
+![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/8.png)
+
+- As shown above picture there is no key-values are available.
+
+**Step2:** Lets create MVC core application for read and push values to app configuration.
