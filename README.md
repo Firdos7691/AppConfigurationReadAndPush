@@ -70,7 +70,7 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/9.png)
 
-- Add below nuget pakcages to project.<br/>
+- Add below NuGet packages to project.<br/>
     **Microsoft.Azure.AppConfiguration.AspNetCore**
 
 - Add connection string in appsetting.json file. <br/>
@@ -82,10 +82,10 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/11.png)
 
-- In above code we have done with dynamic referesh of app configuration by the help of &quot;UpdatedVersion&quot; 
+- In above code we have done with dynamic refresh of app configuration by the help of &quot;UpdatedVersion&quot; 
 - Once we add or update any value(s) then we have to update value of &quot;UpdatedVersion&quot; key to get updated values from app configuration.
-- By default referesh time cycle is 30 seconds but for debugging purpose we kept 10 seconds.
-- now open  &quot;Startup.cs&quot; file and add below piece of code in &quot;ConfigureServices&quot; and &quot;Configure&quot; method.
+- By default refresh time cycle is 30 seconds but for debugging purpose we kept 10 seconds.
+- Now open  &quot;Startup.cs&quot; file and add below piece of code in &quot;ConfigureServices&quot; and &quot;Configure&quot; method.
 
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/12.png)
@@ -126,7 +126,7 @@ Before proceeding to start, let&#39;s check out the  **pre-requirements**  for t
 
 ![](https://github.com/Firdos7691/AppConfigurationReadAndPush/blob/main/Images/21.png)
 
-- Finally we done with push functioality now let's check read functionality.
+- Finally we done with push functionality now let's check read functionality.
 - Go to Read values tab in our application and enter key name in text box and hit the read button.
 
 
